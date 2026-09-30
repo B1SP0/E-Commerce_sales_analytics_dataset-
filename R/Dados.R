@@ -1,0 +1,5 @@
+library(readr)
+customer_master <- read_csv("~/Documents/Github-pessoal/E-Commerce_sales_analytics_dataset-/R/Dados/customer_master.csv")
+ecommerce_sales_customer_analytics_150k <- read_csv("~/Documents/Github-pessoal/E-Commerce_sales_analytics_dataset-/R/Dados/ecommerce_sales_customer_analytics_150k.csv")
+order_items <- read_csv("~/Documents/Github-pessoal/E-Commerce_sales_analytics_dataset-/R/Dados/order_items.csv")
+product_catalog <- read_csv("~/Documents/Github-pessoal/E-Commerce_sales_analytics_dataset-/R/Dados/product_catalog.csv")
